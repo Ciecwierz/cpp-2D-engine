@@ -1,0 +1,8 @@
+nerd/.vs/
+nerd/x64/
+x64/
+*.ipch
+*.pdb
+*.obj
+*.ilk
+*.tlog
