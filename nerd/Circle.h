@@ -28,10 +28,12 @@ namespace MySolution
         void draw();
 
         bool operator>(float _r);
-        bool operator>(Circle& other);
+        bool operator>(const Circle& other);
 
         bool operator<(float _r);
-        bool operator<(Circle& other);
+        bool operator<(const Circle& other);
+
+        bool operator==(const Circle& other);
 
         float getRadius() const { return radius; }
         float getArea() const;
